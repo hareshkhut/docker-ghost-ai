@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: hareshkhutdockerghostai 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hareshkhutdockerghostai
+  template:
+    metadata:
+      labels:
+        app: hareshkhutdockerghostai 
+    spec:
+      containers:
+        - name: hareshkhutdockerghostai 
+          image: droneshuttlesacr.azurecr.io/hareshkhutdockerghostai
+          ports:
+          - containerPort: 80
