@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'cab38008-e55a-4ea5-b94f-b2cc2d7d5fed'
   imageRepository: 'hareshkhutdockerghostai'
   containerRegistry: 'droneshuttlesacr.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/3/alpine/ai/DOCKERFILE'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'droneshuttlesacr6f69-auth'
 
