@@ -1,3 +1,4 @@
+[![Board Status](https://khutharesh.visualstudio.com/181f3189-65dd-4f53-ba73-d4480a71c1a9/3cf5fda5-e41d-411e-80d7-fd7637547fe3/_apis/work/boardbadge/76c10926-af81-443e-a12d-7554a9f1789d)](https://khutharesh.visualstudio.com/181f3189-65dd-4f53-ba73-d4480a71c1a9/_boards/board/t/3cf5fda5-e41d-411e-80d7-fd7637547fe3/Microsoft.RequirementCategory)
 # docker-ghost-ai
 Uses original ghost image https://hub.docker.com/_/ghost/ as base image and adds App-Insights support.
 
